@@ -1,0 +1,56 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+#userPagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div#codja-user-lists {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0px auto;
+  padding: 20px 0;
+}
+#userPagination span.pages {
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.pag_loading {
+  padding: 20px;
+  background-color: #ccc;
+}
+.pagination-link ul {
+  margin: 0;
+  padding: 0;
+}
+.pagination-link ul li {
+  display: inline;
+  margin: 3px;
+  padding: 4px 8px;
+  background: #FFF;
+  color: black;
+}
+.pagination-link ul li.active:hover {
+  cursor: pointer;
+  background: #1E8CBE;
+  color: white;
+}
+.pagination-link ul li.inactive {
+  background: #e3e3e3;
+}
+.pagination-link ul li.selected {
+  background: #1E8CBE;
+  color: white;
+}
+
+#orderByDesc {
+  margin-left: 50%;
+  cursor: pointer;
+}
+#orderByAsc {
+  cursor: pointer;
+}
+.pagination-link {
+  text-align: center;
+}
